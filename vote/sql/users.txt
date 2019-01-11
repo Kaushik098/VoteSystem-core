@@ -1,0 +1,8 @@
+Fields:  adhaar_name , adhaar_number, dob, username, u_password, mobile_number, gender, entry
+
+
+Create Table:
+
+
+CREATE TABLE (adhaar_name VARCHAR(100), adhaar_number(100) UNIQUE KEY, dob VARCHAR(100), username VARCHAR(100),
+        u_password VARCHAR(100), mobile_number VARCHAR(20), gender VARCHAR(20), entry INT, user_id INT AUTO_INCREMENT);

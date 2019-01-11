@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+   <title> Add New Candidate </title>
+   <style>
+      h2{
+	     text-align: center;
+		 font-style: italic;
+      }
+	  
+	  .container {
+           border-radius: 30px;
+           background-color: #f2f2f2;
+           padding: 30px;
+        }
+        .col-25 {
+             float: left;
+             width: 25%;
+             margin-top: 10px;
+			 margin-left: 20px;
+        }
+
+        .col-75 {
+              float: left;
+              width: 200%;
+              margin-top: 6px;
+			  margin-left:20px;
+        }
+	
+	   input[type=submit] {
+           background-color: #4CAF50;
+           color: white;
+           padding: 12px 20px;
+           border: none;
+           border-radius: 4px;
+           cursor: pointer;
+           float: right;
+        }
+	  
+	  body {
+        border: 2px solid black;
+        outline: #4CAF50 solid 10px;
+        margin: auto; 
+        margin-top: 30px;  
+        padding: 20px;
+     }
+   </style>
+   
+</head>
+
+<body>
+  <h2>  Add Candidate Details </h2>
+  
+  <div class = "container">
+	     <form>
+		      <fieldset>
+			      <legend> Details : </legend>
+				    <div class = "row">
+				      
+					  <div class = "col-25">
+					     <label for="cand_id"> CandidateId </label>
+					  </div>
+					  
+                      <div class="col-75">
+                          <input type = "text" id = "cand_id" name = "Candidate Id" placeholder = "Four Digit ID...">
+                      </div>
+					  
+                    </div>
+
+                    <div class = "row">
+				    
+					  <div class = "col-25">
+					     <label for="cand_name"> Candidate Name </label>
+					  </div>
+					  
+                      <div class="col-75">
+                          <input type = "text" id = "cand_name" name = "Candidate Name" placeholder = "Name of Candidate...">
+                      </div>
+					  
+                    </div>	
+
+					
+					 <div class="row">
+                           <input type="submit" value="Submit">
+                      </div> 
+			</fieldset>		  
+		</form>  
+    </div>		
+</body>
+
+</html>

@@ -1,0 +1,3 @@
+Table command:
+
+CREATE TABLE candidate (candidate_id INT PRIMARY KEY, candidate_name VARCHAR(100) NOT NULL);

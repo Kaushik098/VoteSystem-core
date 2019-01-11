@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>  VoteCandidate 2K18 </title>
+
+    <style>
+         h1{
+		    font-style: italic;
+		    text-align: center;
+		 }
+		 
+		.container {
+           border-radius: 30px;
+           background-color: #f2f2f2;
+           padding: 30px;
+        }
+        .col-25 {
+             float: left;
+             width: 25%;
+             margin-top: 10px;
+			 margin-left: 20px;
+        }
+
+        .col-75 {
+              float: left;
+              width: 200%;
+              margin-top: 6px;
+			  margin-left:20px;
+        }
+	
+	   input[type=submit] {
+           background-color: #4CAF50;
+           color: white;
+           padding: 12px 20px;
+           border: none;
+           border-radius: 4px;
+           cursor: pointer;
+           float: right;
+        }
+		
+		body {
+  border: 2px solid black;
+  outline: #4CAF50 solid 10px;
+  margin: auto; 
+   margin-top: 30px;  
+  padding: 20px;
+    }
+		 
+    </style>
+
+</head>
+
+<body>
+
+<h1> Register to Vote Candidate </h1>
+
+<form>
+  <div class = "container">
+	     <form>
+		      <fieldset>
+			      <legend> Register : </legend>
+				    <div class = "row">
+				      
+					  <div class = "col-25">
+					     <label for="name"> Enter your name as named in Adhaar Card </label>
+					  </div>
+					  
+                      <div class="col-75">
+                          <input type = "text" id = "name" name = "UserName" placeholder = "Your Name...">
+                      </div>
+					  
+                    </div>
+
+                    <div class = "row">
+				    
+					  <div class = "col-25">
+					     <label for="adhaarnum"> Adhaar Card Number </label>
+					  </div>
+					  
+                      <div class="col-75">
+                          <input type = "number" id = "adhaarnum" name = "Adhaar Number" placeholder = "Your Adhaar Number...">
+                      </div>
+					  
+                    </div>	
+
+                    <div class = "row">
+				    
+					  <div class = "col-25">
+					     <label for="date_of_birth"> Date Of Birth </label>
+					  </div>
+					  
+                      <div class="col-75">
+                          <input type = "date" id = "date_of_birth" name = "DateOfBirth" placeholder = "Your DOB...">
+                      </div>
+					  
+                    </div>						
+					
+					 <div class = "row">
+				    
+					  <div class = "col-25">
+					     <label for="u-name"> Username </label>
+					  </div>
+					  
+                      <div class="col-75">
+                          <input type = "text" id = "u_name" name = "username" placeholder = "Your EmailId...">
+                      </div>
+					  
+                    </div>	
+					
+					 <div class = "row">
+				      
+					  <div class = "col-25">
+					     <label for="pwd"> Password </label>
+					  </div>
+					  
+                      <div class="col-75">
+                          <input type = "text" id = "pwd" name = "password" placeholder = "Your Password...">
+                      </div>
+					  
+                    </div>	
+					
+		<!--			 <div class = "row">
+				      
+					  <div class = "col-25">
+					     <label for="re_pwd"> ReType Password </label>
+					  </div>
+					  
+                      <div class="col-75">
+                          <input type = "text" id = "re_pwd" name = "re_password" placeholder = "Retype Password...">
+                      </div>
+					  
+                    </div>     -->
+					
+					<div class = "row">
+				      
+					  <div class = "col-25">
+					     <label for="mob_number"> Mobile Number </label>
+					  </div>
+					  
+                      <div class="col-75">
+                          <input type = "text" id = "mob_number" name = "mobilenumber" placeholder = "Your Mobile Number...">
+                      </div>
+					  
+                    </div>
+
+		<!--			 <div class="row">
+                           <div class="col-25">
+                              <label for="address">Address</label>
+                           </div>
+                           <div class="col-75">
+                                 <textarea id="address" name="address" placeholder="Your Address.." style="height:70px "></textarea>
+                            </div>
+                     </div>    -->
+                    
+				      
+			         <div class="row">
+					        <div class="col-25">
+							       <label for="gender"> Gender </label>
+							</div>
+                            <div class="col-75">							
+			                        <form class = "gen">
+                                         <input type="radio" name="gender" value="male"> Male<br>
+                                         <input type="radio" name="gender" value="female"> Female<br>
+                                         <input type="radio" name="gender" value="other"> Other<br>  
+                                     </form>
+					        </div>
+					    </div>
+                         
+						 
+					
+                      <div class="row">
+                           <input type="submit" value="Submit">
+                      </div> 
+					  
+					  
+			  </fieldset>
+		 </form>
+	</div>
+
+</body>
+
+</html>
